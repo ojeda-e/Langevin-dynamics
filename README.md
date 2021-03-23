@@ -5,8 +5,8 @@
 The initial model here considered is the one-dimensional generalized Langevin equation (GLE), which describes
 subdiffusive particle motion when in a viscoelastic medium in equilibrium conditions:
 
-\begin{equation}
-m x(t) = - \int_0^t \gamma(t − t')x(t')dt'+\xi(t),
+
+- <img src="https://latex.codecogs.com/gif.latex?mx(t) = - \int_0^t \gamma(t − t')x(t')dt'+\xi(t)" /> ,
 \end{equation}
 
 where, $x(t)$ is the position of the particle, $m$ is its mass, and $\gamma(t)$ is the frictional kernel given by
