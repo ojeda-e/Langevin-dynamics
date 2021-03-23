@@ -6,7 +6,9 @@ The initial model here considered is the one-dimensional generalized Langevin eq
 subdiffusive particle motion when in a viscoelastic medium in equilibrium conditions:
 
 
-- <img src="https://latex.codecogs.com/gif.latex?mx(t) = - \int_0^t \gamma(t − t')x(t')dt'+\xi(t)" /> ,
+```math
+mx(t) = - \int_0^t \gamma(t − t')x(t')dt'+\xi(t) ,
+```
 
 where, $x(t)$ is the position of the particle, $m$ is its mass, and $\gamma(t)$ is the frictional kernel given by
 
