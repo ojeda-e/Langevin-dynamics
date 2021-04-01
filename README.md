@@ -6,16 +6,13 @@ This repository provides a numerical approach to study the effect of a molecular
 We consider two different sets of models. The first set of models (1_no_motors/)contemplates the most fundamental form of transport, driven by thermal fluctuations and cellular crowding, but in the absence of molecular motors:
 
 - In viscous media only ([Difussion](1_no_motors/1-1_viscous/particle-difussion.f)).
-- In viscoelastic media ([Difussion with virtual particles](1_no_motors/1-2_viscoelastic/viscoelastic+virtual_particles.f)).
+- In viscoelastic media ([Difussion with virtual particles](1_no_motors/1-2_viscoelastic/particle_difussion+virtual_particles.f)).
+
 
 For the second set, we consider organelle transport mediated by molecular motors. This set includes:
 
-- Standard Model Langevin + Monte Carlo ([SLMC](SLMC/SLMC.ipynb)),
-- Standard Model Langevin + Monte Carlo with continous step ([SLMC-CS](SLMC_CS/SLMC_CS.ipynb)),
-- Time-averaged Force (TAF).
-- Two-dimensional model (2DM)
-
-The last model here included is the extension in two dimensions of the SLMC-CS model. 
+- Standard Model Langevin + Monte Carlo ([SLMC](2_motors/SLMC/SLMC-pv.f)),
+- Standard Model Langevin + Monte Carlo with external force ([SLMC-Fext](2_motors/SLMC_Fext/SLMC_Fext.f)),
 
 As a third additional set, we include the model of a molecular motor with no cargo .
 
